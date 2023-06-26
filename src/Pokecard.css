@@ -1,0 +1,60 @@
+.allCards{
+    margin-top: 10%;
+    background-color: rgb(38, 153, 115);
+    padding: 10%;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+
+ }
+/* .card{
+    font-size: 18px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10%;
+    border-style: solid;
+    padding: 5%;
+    margin-top: 20%;
+    flex-direction: column;
+    max-width: 30%;
+    
+} */
+.card{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 81, 85);
+    color: antiquewhite;
+    border-radius: 10%;
+    border: 2px solid white;
+    margin: 5px;
+    cursor: pointer;
+    flex: 1 1 ;
+    max-width: fit-content;
+    height: auto;
+    width: auto;
+}
+
+.pokeImg{
+    display: flex;
+}
+.name{
+    max-width: fit-content;
+    color: blue;
+    padding: 10%;
+    font-size: 0.8rem;
+}
+.type, exp {
+    
+    color: rgb(4, 4, 21);
+    padding: 10%;
+    font-size: 0.8rem;
+    
+}
+.exp {
+    
+    color: rgb(4, 4, 21);
+    padding: 10%;
+    font-size: 0.7rem;
+    
+}
